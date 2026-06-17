@@ -1,0 +1,17 @@
+{
+  "skenario_bbm": {
+    "subsidi": {
+      "harga_bbm_per_liter": 5000
+    },
+    "krisis": {
+      "harga_bbm_per_liter": 20000
+    }
+  },
+  "rasio_konsumsi_bensin": {
+    "saat_penuh_liter_per_km": 0.05,
+    "saat_kosong_liter_per_km": 0.02
+  },
+  "biaya_komputasi": {
+    "rp_per_milidetik": 50
+  }
+}

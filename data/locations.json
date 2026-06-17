@@ -1,0 +1,106 @@
+[
+  {
+    "id": 0,
+    "name": "Gudang Pusat (Gedebage)",
+    "type": "hub",
+    "lat": -6.9509,
+    "lng": 107.6839,
+    "berat_paket_kg": 0
+  },
+  {
+    "id": 1,
+    "name": "Dipatiukur",
+    "type": "pelanggan",
+    "lat": -6.8898,
+    "lng": 107.6136,
+    "berat_paket_kg": 4
+  },
+  {
+    "id": 2,
+    "name": "Buah Batu",
+    "type": "pelanggan",
+    "lat": -6.9489,
+    "lng": 107.6303,
+    "berat_paket_kg": 6
+  },
+  {
+    "id": 3,
+    "name": "Cibiru",
+    "type": "pelanggan",
+    "lat": -6.9319,
+    "lng": 107.7178,
+    "berat_paket_kg": 3
+  },
+  {
+    "id": 4,
+    "name": "Antapani",
+    "type": "pelanggan",
+    "lat": -6.9134,
+    "lng": 107.6577,
+    "berat_paket_kg": 7
+  },
+  {
+    "id": 5,
+    "name": "Kopo",
+    "type": "pelanggan",
+    "lat": -6.9482,
+    "lng": 107.5757,
+    "berat_paket_kg": 2
+  },
+  {
+    "id": 6,
+    "name": "Cicaheum",
+    "type": "pelanggan",
+    "lat": -6.9028,
+    "lng": 107.6493,
+    "berat_paket_kg": 5
+  },
+  {
+    "id": 7,
+    "name": "Ujung Berung",
+    "type": "pelanggan",
+    "lat": -6.9156,
+    "lng": 107.6905,
+    "berat_paket_kg": 8
+  },
+  {
+    "id": 8,
+    "name": "Margahayu",
+    "type": "pelanggan",
+    "lat": -6.9529,
+    "lng": 107.5917,
+    "berat_paket_kg": 3
+  },
+  {
+    "id": 9,
+    "name": "Setiabudi",
+    "type": "pelanggan",
+    "lat": -6.8625,
+    "lng": 107.5953,
+    "berat_paket_kg": 5
+  },
+  {
+    "id": 10,
+    "name": "Pasteur",
+    "type": "pelanggan",
+    "lat": -6.8917,
+    "lng": 107.5872,
+    "berat_paket_kg": 4
+  },
+  {
+    "id": 11,
+    "name": "Cibaduyut",
+    "type": "pelanggan",
+    "lat": -6.9613,
+    "lng": 107.5887,
+    "berat_paket_kg": 6
+  },
+  {
+    "id": 12,
+    "name": "Kiaracondong",
+    "type": "pelanggan",
+    "lat": -6.9282,
+    "lng": 107.6485,
+    "berat_paket_kg": 2
+  }
+]
