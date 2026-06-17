@@ -47,3 +47,35 @@ def _dfs_backtrack(matrix, current_node, visited, current_route, current_distanc
         
             current_route.pop()
             visited[next_node] = False
+
+def solve_greedy_tsp(graph_matrix, hub_index=0):
+    start_time = time.perf_counter()
+
+    num_nodes = len(graph_matrix)
+    visited = [False] * num_nodes
+    visited[hub_index] = True
+
+    route = [hub_index]
+    current_node = hub_index
+
+    for _ in range(num_nodes - 1):
+        nearest_node = -1
+        min_distance = float('inf')
+
+        for next_node in range(num_nodes):
+            if not visited[next_node]:
+                dist = graph_matrix[current_node][next_node]
+                if dist < min_distance:
+                    min_distance = dist
+                    nearest_node = next_node
+
+        visited[nearest_node] = True
+        route.append(nearest_node)
+        current_node = nearest_node
+
+    route.append(hub_index)
+
+    end_time = time.perf_counter()
+    execution_time_ms = (end_time - start_time) * 1000
+
+    return route, execution_time_ms
