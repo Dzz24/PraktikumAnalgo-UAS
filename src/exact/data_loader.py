@@ -8,7 +8,7 @@ def load_json_data(file_path):
         return json.load(f)
 
 def get_simulation_data():
-    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     
     locations_data = load_json_data(os.path.join(base_dir, 'data', 'locations.json'))
     matrix_data = load_json_data(os.path.join(base_dir, 'data', 'distance_matrix.json'))
