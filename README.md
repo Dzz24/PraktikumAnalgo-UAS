@@ -45,7 +45,7 @@ Program dijalankan melalui *Command Line Interface (CLI)*.
 3. Jalankan program:
 
    ```bash
-   python src/main.py
+   python src/exact/main.py
    ```
 
 ### 📊 Output
