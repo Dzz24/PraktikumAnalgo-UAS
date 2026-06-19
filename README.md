@@ -2,8 +2,11 @@
 
 ### Nama Anggota Kelompok:
 1.Elsa Rizki Utami - 140810240040
+
 2.Abraham Gomes Samosir - 140810240044
+
 3.Dzikri Fakhry - 140810240056
+
 4.Fardan Fadhilah Andicha Putra - 140810240084
 
 # Last-Mile Delivery Optimization: Heuristic vs Exact Algorithm
@@ -71,8 +74,6 @@ Tangkapan layar hasil eksekusi tersedia di folder `docs/`
 * Rentan terjebak di *local optimum*
 * Potensi konsumsi BBM lebih tinggi
 
----
-
 ### Algoritma B: Eksak (DFS Backtracking + Pruning)
 
 **Karakteristik:**
@@ -99,8 +100,6 @@ Penjelasan:
 * Loop luar: menentukan urutan rute
 * Loop dalam: mencari node terdekat
 
----
-
 ### DFS Backtracking + Pruning (Eksak)
 * **Waktu:** `O(V!)` *(worst-case)*
 * **Ruang:** `O(V)`
@@ -108,8 +107,6 @@ Penjelasan:
 Penjelasan:
 * Menjelajahi semua permutasi kemungkinan rute
 * Pruning membantu secara praktis, tapi tidak mengubah batas atas kompleksitas
-
----
 
 ## 4. Analisis Bisnis (Business Insight)
 
@@ -125,7 +122,6 @@ Simulasi dilakukan pada dua skenario:
 * Namun memiliki **biaya server jauh lebih tinggi**
 * Keputusan optimal tergantung pada harga BBM
 
----
 
 ### Break-Even Point
 
@@ -143,7 +139,7 @@ Atau:
 
 ---
 
-## 4. Hasil Simulasi & Analisis Finansial
+## 5. Hasil Simulasi & Analisis Finansial
 
 Berdasarkan simulasi komputasi yang membandingkan dua skenario harga bahan bakar, diperoleh hasil sebagai berikut:
 
@@ -172,9 +168,12 @@ Berdasarkan simulasi komputasi yang membandingkan dua skenario harga bahan bakar
 * Selisih efisiensi BBM semakin besar
 * Namun tetap belum mampu menutup biaya server algoritma Eksak
 
+### Grafik Perbandingan
+<img width="1189" height="955" alt="tco-graph" src="https://github.com/user-attachments/assets/af322e92-483f-4c7d-b3bd-716492e032ab" />
+
 ---
 
-## 5. Analisis Keputusan
+## 6. Analisis Keputusan
 
 Penerapan Algoritma Eksak memberikan peningkatan efisiensi rute sebagai berikut:
 * Pengurangan jarak: **10,41 km** *(dari 56,01 km → 45,60 km)*
@@ -186,7 +185,7 @@ Namun, efisiensi ini memiliki konsekuensi:
 
 ---
 
-### 6. Kesimpulan
+### 7. Kesimpulan
 Berdasarkan seluruh pengujian kompleksitas komputasi dan analisis ekonomi komparatif, Algoritma Heuristik (Greedy) ditetapkan sebagai pilihan paling rasional dan direkomendasikan untuk diimplementasikan pada infrastruktur Last-Mile Delivery perusahaan.
 
 Meskipun Algoritma Eksak terbukti sukses menemukan rute optimal mutlak yang memangkas jarak tempuh hingga 10,41 km, pendekatan ini gagal memenuhi kriteria kelayakan finansial operasional. Penghematan bahan bakar yang dihasilkan (sekitar 0,2376 Liter) sangat tidak sebanding dengan ledakan tagihan komputasi server Pay-as-you-go yang membengkak drastis hingga Rp 289.828 per satu kali eksekusi.
@@ -198,7 +197,7 @@ Dengan kata lain:
 
 ---
 
-## 6. Rekomendasi Tindakan
+## 8. Rekomendasi Tindakan
 
 Untuk sistem produksi, perusahaan wajib menggunakan Algoritma Heuristik (Greedy) sebagai mesin penentu rute harian. Total Cost of Ownership (TCO)-nya terbukti efisien (hanya berkisar Rp 8.904 pada skenario normal) dengan waktu eksekusi yang nyaris instan, membuatnya sangat cocok untuk memproses ratusan pesanan pelanggan secara real-time.
 
