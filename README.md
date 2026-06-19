@@ -185,7 +185,7 @@ Namun, efisiensi ini memiliki konsekuensi:
 
 ---
 
-### 7. Kesimpulan
+## 7. Kesimpulan
 Berdasarkan seluruh pengujian kompleksitas komputasi dan analisis ekonomi komparatif, Algoritma Heuristik (Greedy) ditetapkan sebagai pilihan paling rasional dan direkomendasikan untuk diimplementasikan pada infrastruktur Last-Mile Delivery perusahaan.
 
 Meskipun Algoritma Eksak terbukti sukses menemukan rute optimal mutlak yang memangkas jarak tempuh hingga 10,41 km, pendekatan ini gagal memenuhi kriteria kelayakan finansial operasional. Penghematan bahan bakar yang dihasilkan (sekitar 0,2376 Liter) sangat tidak sebanding dengan ledakan tagihan komputasi server Pay-as-you-go yang membengkak drastis hingga Rp 289.828 per satu kali eksekusi.
